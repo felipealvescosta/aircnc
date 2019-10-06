@@ -30,6 +30,35 @@ ul.spot-list li span{
     color:#999;
 }
 
+ul.notifications{
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+ul.notifications li{
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+ul.notifications li button{
+    margin-right: 10px;
+    border: 0;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+ul.notifications li button.accept{
+    width: 25%;
+    background-color: #84c870;
+}
+ul.notifications li button.reject{
+    width: 25%;
+    background-color: #e55e5e;
+}
+
 .btn{
     border: 0;
     border-radius: 2px;
@@ -42,6 +71,12 @@ ul.spot-list li span{
     cursor:pointer;
   }
 
+  .exit{
+      margin-top: 10px;
+      background-color: #444;
+  }
+
 .btn:hover{
     background: #e14f50;
 }
+
