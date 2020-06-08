@@ -66,8 +66,9 @@ cd frontend
 yarn install
 yarn start
 ```
-Run Mobile App
-3. Enter the  mobile folder
+3. Run Mobile App
+
+Enter the  mobile folder
 ```sh
 yarn install
 ```
