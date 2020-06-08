@@ -53,6 +53,7 @@ To get a local copy up and running follow these simple steps.
 git clone https://github.com/felipealvescosta/omnistack9.git
 ```
 Run Server
+<br/>
 1. Enter the server folder
 ```sh
 cd server/ 
@@ -60,15 +61,16 @@ yarn install
 yarn dev
 ```
 Run Front
+<br/>
 2. Enter the  frontend folder
 ```sh
 cd frontend
 yarn install
 yarn start
 ```
-3. Run Mobile App
-
-Enter the  mobile folder
+Run Mobile App
+<br/>
+3. Enter the  mobile folder
 ```sh
 yarn install
 ```
